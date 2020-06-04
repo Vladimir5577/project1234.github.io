@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+body{
+	background: #E5E5E5;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main-slider {
+	background: #fff;
+	position: relative;
+	height: 440px;
+	width: 800px;
+	overflow: hidden;
+}
+.main-slider__wrapper {
+	width: 80%;
+}
+
+
+.main-slider__item {
+	transition: 0.8s ease-in-out;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	width: 800px;
+	float: left;
+}
+
+.main-slider__content {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.main-slider__link {
+	border-bottom: 3px solid #FF4641;
+}
+
+.main-slider__navs i{
+	position: absolute;
+	font-size: 35px;
+
+	top: 50%;
+	cursor: pointer;
+	display: none;
+}
+.main-slider :hover .main-slider__navs i {
+	font-size: 55px;
+}
+.main-slider__nav-right {
+	right: 20px;
+}
+
+.main-slider__nav-left {
+	left: 20px;
+}
+
+
+/***
+ chat section
+*/
+.chat-section {
+	background: #fff;
+}
+.main-chat__title {
+	padding: 20px;
+}
+.main-chat__body-title {
+	display: flex;
+}
+.main-chat__body-title-avatar {
+	width: 100px;
+	padding: 10px;
+}
+.main-chat__body-title-avatar-img {
+	width: 50px;
+	border-radius: 50px;
+}
+.main-chat__body-title_heading-meta {
+	font-size: 12px;
+	color: #FF4641;
+}
+.main-chat__body-title-rating {
+	padding: 15px 10px;
+	color: #F5C723;
+}
+.main-chat__body-conversations {
+	padding: 0px;
+	height: 500px;
+	overflow-y: scroll;
+}
+.main-chat__conversation {
+	display: flex;
+}
+
+.main-chat__conversation-avatar {
+	width: 100px;
+	padding: 10px;
+}
+
+.main-chat__conversation-avatar-img {
+	display: block;
+	height: auto;
+	width: 50px;
+	border-radius: 50px;
+}
+.main-chat__conversation-message {
+	padding: 10px 20px;
+}
+
+.main-chat__text-area {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-chat__text-area-avatar {
+	width: 100px;
+	padding: 10px;
+}
+
+.main-chat__text-area-avatar-img {
+	width: 50px;
+	border-radius: 50px;
+}
+
+.main-chat__text-area-input {
+	border: none;
+	outline: none;
+}
+
+.main-chat__text-send-btn {
+	display: flex;
+	align-items: center;
+	background: none;
+	border: none;
+}
+
+
+
